@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root {
+  --neural-accent: #00FFAB;
+  --neural-accent-rgb: 0, 255, 171;
+  --neural-secondary: #8B5CF6;
+  --neural-secondary-rgb: 139, 92, 246;
+  --neural-emotion: #FF5C8E;
+  --neural-emotion-rgb: 255, 92, 142;
+  --neural-pulse-speed: 2s;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+@theme {
+  --color-background: #050505;
+  --color-accent: var(--neural-accent);
+  --color-secondary: var(--neural-secondary);
+  --color-emotion: var(--neural-emotion);
+  --color-alert: #FF4B4B;
+  --color-text: #F8FAFC;
+  --color-muted: #94A3B8;
+}
+
+@layer base {
+  body {
+    background-color: #050505;
+    color: #FFFFFF;
+    font-family: var(--font-inter);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Glassmorphism Premium - Darker & Sharper */
+.glass-premium {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.9);
+}
+
+.glass {
+  background: rgba(20, 20, 20, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Animações Orgânicas */
+@keyframes organic-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+}
+
+
+.pulse-organic {
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(var(--neural-accent-rgb), 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: -1;
+  animation: organic-pulse 20s infinite ease-in-out;
+}
+
+/* Custom Scrollbar Sci-Fi */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(var(--neural-accent-rgb), 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(var(--neural-accent-rgb), 0.4);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(var(--neural-accent-rgb), 0.5);
+}

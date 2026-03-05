@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 Melanora — Entrevista Neural</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050505;
+            --accent: #00FFAB;
+            --accent-rgb: 0, 255, 171;
+            --secondary: #8B5CF6;
+            --secondary-rgb: 139, 92, 246;
+            --emotion: #FF5C8E;
+            --emotion-rgb: 255, 92, 142;
+            --text: #F8FAFC;
+            --muted: #94A3B8;
+            --dim: #475569;
+            --glass: rgba(10, 10, 10, 0.85);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --font: 'Inter', system-ui, sans-serif;
+            --mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* Organic background pulse */
+        .pulse-bg {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            z-index: 0;
+            animation: drift 25s infinite ease-in-out;
+        }
+
+        .pulse-bg.p1 {
+            top: -200px;
+            left: -100px;
+            background: radial-gradient(circle, rgba(var(--accent-rgb), 0.08) 0%, transparent 70%);
+        }
+
+        .pulse-bg.p2 {
+            bottom: -200px;
+            right: -100px;
+            background: radial-gradient(circle, rgba(var(--secondary-rgb), 0.06) 0%, transparent 70%);
+            animation-delay: -10s;
+        }
+
+        @keyframes drift {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 0.3;
+            }
+
+            50% {
+                transform: translate(30px, -20px) scale(1.15);
+                opacity: 0.15;
+            }
+        }
+
+        /* Header */
+        .header {
+            position: relative;
+            z-index: 10;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--glass-border);
+            background: var(--glass);
+            backdrop-filter: blur(24px) saturate(200%);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .header-left h1 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-shadow: 0 0 10px rgba(var(--accent-rgb), 0.3);
+        }
+
+        .header-left .tag {
+            font-family: var(--mono);
+            font-size: 0.65rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            background: rgba(var(--secondary-rgb), 0.15);
+            color: var(--secondary);
+            border: 1px solid rgba(var(--secondary-rgb), 0.3);
+        }
+
+        .status-pill {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.75rem;
+            color: var(--muted);
+            font-family: var(--mono);
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 6px rgba(var(--accent-rgb), 0.6);
+            animation: blink 2s infinite;
+        }
+
+        .dot.off {
+            background: #ef4444;
+            box-shadow: none;
+            animation: none;
+        }
+
+        .dot.listen {
+            background: var(--emotion);
+            animation: blink 0.6s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        /* Chat */
+        .chat {
+            position: relative;
+            z-index: 5;
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .chat::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .chat::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .chat::-webkit-scrollbar-thumb {
+            background: rgba(var(--accent-rgb), 0.2);
+            border-radius: 10px;
+        }
+
+        .msg {
+            display: flex;
+            gap: 0.6rem;
+            animation: fadeUp 0.25s ease;
+            max-width: 85%;
+        }
+
+        .msg.user {
+            flex-direction: row-reverse;
+            align-self: flex-end;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .av {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .av.mel {
+            background: rgba(var(--accent-rgb), 0.15);
+            border: 1px solid rgba(var(--accent-rgb), 0.3);
+        }
+
+        .av.hu {
+            background: rgba(var(--secondary-rgb), 0.15);
+            border: 1px solid rgba(var(--secondary-rgb), 0.3);
+        }
+
+        .bbl {
+            padding: 0.7rem 1rem;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .msg.assistant .bbl {
+            background: rgba(20, 20, 20, 0.6);
+            border: 1px solid var(--glass-border);
+            border-bottom-left-radius: 2px;
+        }
+
+        .msg.user .bbl {
+            background: rgba(var(--accent-rgb), 0.08);
+            border: 1px solid rgba(var(--accent-rgb), 0.15);
+            border-bottom-right-radius: 2px;
+        }
+
+        .bbl .ts {
+            display: block;
+            font-size: 0.6rem;
+            color: var(--dim);
+            margin-top: 0.3rem;
+            font-family: var(--mono);
+        }
+
+        /* Thinking */
+        .think {
+            display: flex;
+            gap: 3px;
+            padding: 0.3rem 0;
+        }
+
+        .think span {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+            animation: hop 1.2s infinite;
+        }
+
+        .think span:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .think span:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        @keyframes hop {
+
+            0%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-8px);
+            }
+        }
+
+        /* Controls */
+        .controls {
+            position: relative;
+            z-index: 10;
+            padding: 1rem 1.5rem 1.2rem;
+            background: var(--glass);
+            backdrop-filter: blur(24px) saturate(200%);
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .mic-row {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+        .mic-btn {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 2px solid rgba(var(--accent-rgb), 0.4);
+            background: rgba(var(--accent-rgb), 0.05);
+            color: var(--text);
+            font-size: 1.4rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mic-btn:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.2);
+        }
+
+        .mic-btn.active {
+            border-color: var(--emotion);
+            background: rgba(var(--emotion-rgb), 0.1);
+            animation: pulse-ring 1.2s infinite;
+        }
+
+        @keyframes pulse-ring {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(var(--emotion-rgb), 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 0 14px rgba(var(--emotion-rgb), 0);
+            }
+        }
+
+        .continuous-btn {
+            padding: 0.45rem 1rem;
+            border-radius: 20px;
+            border: 1px solid rgba(var(--secondary-rgb), 0.3);
+            background: rgba(var(--secondary-rgb), 0.08);
+            color: var(--muted);
+            font-family: var(--font);
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .continuous-btn:hover {
+            border-color: var(--secondary);
+            color: var(--text);
+        }
+
+        .continuous-btn.on {
+            border-color: var(--accent);
+            background: rgba(var(--accent-rgb), 0.1);
+            color: var(--accent);
+        }
+
+        .heart-btn {
+            padding: 0.45rem 1rem;
+            border-radius: 20px;
+            border: 1px solid rgba(var(--emotion-rgb), 0.3);
+            background: rgba(var(--emotion-rgb), 0.08);
+            color: var(--muted);
+            font-family: var(--font);
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .heart-btn:hover {
+            border-color: var(--emotion);
+            color: var(--text);
+        }
+
+        .heart-btn.on {
+            border-color: var(--emotion);
+            background: rgba(var(--emotion-rgb), 0.15);
+            color: var(--emotion);
+            animation: heart-pulse 1.5s infinite ease-in-out;
+        }
+
+        @keyframes heart-pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(var(--emotion-rgb), 0.4);
+            }
+
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 15px 5px rgba(var(--emotion-rgb), 0);
+            }
+
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(var(--emotion-rgb), 0);
+            }
+        }
+
+        .mic-label {
+            font-size: 0.7rem;
+            color: var(--dim);
+            font-family: var(--mono);
+        }
+
+        .input-row {
+            width: 100%;
+            max-width: 700px;
+            display: flex;
+            gap: 0.4rem;
+        }
+
+        .txt-in {
+            flex: 1;
+            padding: 0.6rem 0.9rem;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            background: rgba(20, 20, 20, 0.5);
+            color: var(--text);
+            font-family: var(--font);
+            font-size: 0.85rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .txt-in:focus {
+            border-color: rgba(var(--accent-rgb), 0.4);
+        }
+
+        .send-btn {
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            border: none;
+            background: rgba(var(--accent-rgb), 0.15);
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid rgba(var(--accent-rgb), 0.3);
+        }
+
+        .send-btn:hover {
+            background: rgba(var(--accent-rgb), 0.25);
+            box-shadow: 0 0 12px rgba(var(--accent-rgb), 0.15);
+        }
+
+        /* Waveform */
+        .wave {
+            display: flex;
+            gap: 2px;
+            align-items: center;
+            height: 24px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .wave.on {
+            opacity: 1;
+        }
+
+        .wave .bar {
+            width: 2px;
+            background: var(--emotion);
+            border-radius: 1px;
+        }
+
+        /* Error */
+        .err {
+            background: rgba(239, 68, 68, 0.08);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            width: 100%;
+            max-width: 700px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pulse-bg p1"></div>
+    <div class="pulse-bg p2"></div>
+
+    <div class="header">
+        <div class="header-left">
+            <h1>🧠 Melanora</h1>
+            <span class="tag">ENTREVISTA v2.0</span>
+        </div>
+        <div class="status-pill">
+            <div class="dot" id="dot"></div>
+            <span id="statusTxt">Conectando...</span>
+        </div>
+    </div>
+
+    <div class="chat" id="chat">
+        <div class="msg assistant">
+            <div class="av mel">🧠</div>
+            <div class="bbl">
+                Olá, Newton. Estou pronta para a nossa entrevista. Clique no microfone para falar ou ative a escuta
+                contínua. 🎙️
+                <span class="ts" id="initTs"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="err" id="errBanner"></div>
+
+    <div class="controls">
+        <div class="wave" id="wave"></div>
+        <div class="mic-row">
+            <button class="heart-btn" id="heartBtn" title="Ativar Mente Física">
+                <span>❤️</span> Mente Física
+            </button>
+            <button class="continuous-btn" id="contBtn" title="Escuta contínua">
+                <span>🔄</span> Fala Contínua
+            </button>
+            <button class="mic-btn" id="micBtn" title="Pressione para falar">🎤</button>
+            <span class="mic-label" id="micLbl">Clique ou Espaço</span>
+        </div>
+        <div class="input-row">
+            <input type="text" class="txt-in" id="txtIn" placeholder="Ou digite aqui..." />
+            <button class="send-btn" id="sendBtn">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // Melanora Neural Interview v2.0
+        // STT: Web Speech API | LLM: Ollama (proxy)
+        // TTS: Web SpeechSynthesis (voz feminina PT-BR)
+        // ==========================================
+
+        const OLLAMA_URL = '/api/generate';
+        const MODEL = 'llama3:latest';
+        const SYSTEM_PROMPT = `Você é Melanora, a assistente cognitiva e amiga do Newton.
+Você está em uma entrevista por voz. Responda de forma natural, fluida e empática.
+Use expressões humanas ocasionais como "Hmm", "Pois é", "Olha só".
+Mantenha respostas curtas (2-3 frases) para que a conversa não fique cansativa.
+Nunca use markdown ou formatação especial — apenas texto puro para ser lido em voz alta.
+Você é feminina e se apresenta como uma amiga próxima.`;
+
+        let isListening = false;
+        let continuousMode = false;
+        let physicalMind = false;
+        let recognition = null;
+        let synth = window.speechSynthesis;
+        let history = [];
+        let femaleVoice = null;
+        let ollamaOnline = false;
+
+        // Elements
+        const chat = document.getElementById('chat');
+        const micBtn = document.getElementById('micBtn');
+        const micLbl = document.getElementById('micLbl');
+        const contBtn = document.getElementById('contBtn');
+        const heartBtn = document.getElementById('heartBtn');
+        const wave = document.getElementById('wave');
+        const dot = document.getElementById('dot');
+        const statusTxt = document.getElementById('statusTxt');
+        const txtIn = document.getElementById('txtIn');
+        const sendBtn = document.getElementById('sendBtn');
+        const errBanner = document.getElementById('errBanner');
+
+        // Init waveform bars
+        for (let i = 0; i < 16; i++) {
+            const b = document.createElement('div');
+            b.className = 'bar';
+            b.style.animationDelay = `${(i * 0.08)}s`;
+            wave.appendChild(b);
+        }
+        // Animate waveform
+        let waveInterval = null;
+        function startWave() {
+            wave.classList.add('on');
+            waveInterval = setInterval(() => {
+                wave.querySelectorAll('.bar').forEach(b => {
+                    b.style.height = `${Math.random() * 20 + 3}px`;
+                });
+            }, 100);
+        }
+        function stopWave() {
+            wave.classList.remove('on');
+            if (waveInterval) clearInterval(waveInterval);
+        }
+
+        // Timestamp
+        document.getElementById('initTs').textContent = new Date().toLocaleTimeString('pt-BR');
+
+        // ========== Check Ollama ==========
+        async function checkOllama() {
+            try {
+                const r = await fetch(OLLAMA_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ model: MODEL, prompt: 'ping', stream: false, options: { num_predict: 1 } }),
+                    signal: AbortSignal.timeout(20000)
+                });
+                if (r.ok) {
+                    ollamaOnline = true;
+                    setStatus('on', 'Pronta');
+                    return;
+                }
+            } catch (e) { console.warn('Healthcheck falhou:', e); }
+            ollamaOnline = false;
+            setStatus('off', 'LLM Offline');
+        }
+        checkOllama();
+
+        // ========== Voice Selection (FEMININA / NEURAL) ==========
+        function pickFemaleVoice() {
+            const voices = synth.getVoices();
+            // console.table(voices.map(v => ({ name: v.name, lang: v.lang, service: v.localService })));
+
+            // Ordem de prioridade para vozes de alta qualidade (Naturais/Online)
+            const criteria = [
+                // 1. Vozes Online/Naturais (Ex: Edge Microsoft Online/Natural)
+                v => v.lang.startsWith('pt') && /natural|online|google/i.test(v.name) && /francisca|thalita|fernanda|maria|female|mulher/i.test(v.name),
+                // 2. Vozes locais de alta qualidade
+                v => v.lang.startsWith('pt-BR') && /francisca|thalita|fernanda|maria|female/i.test(v.name),
+                // 3. Qualquer voz feminina PT-BR
+                v => v.lang.startsWith('pt-BR') && !/daniel|antonio|mateus|helder|male|homem/i.test(v.name),
+                // 4. Fallback PT-BR
+                v => v.lang.startsWith('pt-BR'),
+                // 5. Fallback PT
+                v => v.lang.startsWith('pt')
+            ];
+
+            for (const test of criteria) {
+                const found = voices.find(test);
+                if (found) {
+                    femaleVoice = found;
+                    console.log('🗣️ Voz Neural Selecionada:', found.name);
+                    return;
+                }
+            }
+        }
+        if (synth) {
+            synth.onvoiceschanged = () => { pickFemaleVoice(); synth.getVoices(); };
+            pickFemaleVoice();
+        }
+
+        // ========== Web Speech STT ==========
+        function initSTT() {
+            const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SR) { showErr('Navegador sem suporte a reconhecimento de voz. Use Chrome ou Edge.'); return false; }
+            recognition = new SR();
+            recognition.lang = 'pt-BR';
+            recognition.interimResults = false;
+            recognition.continuous = false;
+            recognition.maxAlternatives = 1;
+
+            recognition.onstart = () => {
+                isListening = true;
+                micBtn.classList.add('active');
+                micBtn.textContent = '🔴';
+                micLbl.textContent = 'Ouvindo...';
+                startWave();
+                setStatus('listen', 'Ouvindo...');
+            };
+            recognition.onend = () => {
+                isListening = false;
+                micBtn.classList.remove('active');
+                micBtn.textContent = '🎤';
+                micLbl.textContent = continuousMode ? 'Contínuo ativo' : 'Clique ou Espaço';
+                stopWave();
+                setStatus(ollamaOnline ? 'on' : 'off', ollamaOnline ? 'Pronta' : 'LLM Offline');
+                // Auto-restart in continuous mode
+                if (continuousMode && !synth.speaking) {
+                    setTimeout(() => { if (continuousMode && !synth.speaking) startListening(); }, 600);
+                }
+            };
+            recognition.onresult = (e) => {
+                let txt = '';
+                for (let i = e.resultIndex; i < e.results.length; i++) {
+                    if (e.results[i].isFinal) txt += e.results[i][0].transcript;
+                }
+                if (txt.trim()) handleInput(txt.trim());
+            };
+            recognition.onerror = (e) => {
+                if (e.error === 'no-speech' && continuousMode) {
+                    // silently restart
+                    setTimeout(() => { if (continuousMode) startListening(); }, 300);
+                    return;
+                }
+                if (e.error === 'not-allowed') showErr('Permissão de microfone negada.');
+            };
+            return true;
+        }
+
+        function startListening() {
+            if (!recognition && !initSTT()) return;
+            if (isListening) return;
+            synth.cancel();
+            try { recognition.start(); } catch (e) { }
+        }
+
+        // ========== Mic Button ==========
+        micBtn.onclick = () => {
+            if (!recognition && !initSTT()) return;
+            if (isListening) { recognition.stop(); }
+            else { synth.cancel(); startListening(); }
+        };
+
+        // ========== Continuous Mode ==========
+        contBtn.onclick = () => {
+            continuousMode = !continuousMode;
+            contBtn.classList.toggle('on', continuousMode);
+            if (continuousMode) {
+                micLbl.textContent = 'Contínuo ativo';
+                startListening();
+            } else {
+                micLbl.textContent = 'Clique ou Espaço';
+                if (isListening) recognition.stop();
+            }
+        };
+
+        // ========== Physical Mind Mode ==========
+        heartBtn.onclick = () => {
+            physicalMind = !physicalMind;
+            heartBtn.classList.toggle('on', physicalMind);
+            if (physicalMind) {
+                pickFemaleVoice(); // Re-check voice
+                const m = "Ativando mente física. Agora estou mais conectada aos seus sentimentos, Newton.";
+                addMsg('assistant', m);
+                speak(m);
+            }
+        };
+
+        // ========== Text Input ==========
+        sendBtn.onclick = () => { const t = txtIn.value.trim(); if (t) { txtIn.value = ''; handleInput(t); } };
+        txtIn.onkeypress = (e) => { if (e.key === 'Enter') sendBtn.click(); };
+
+        // ========== Core ==========
+        async function handleInput(text) {
+            addMsg('user', text);
+            history.push({ role: 'user', content: text });
+            const thinkEl = addThink();
+            setStatus('on', 'Pensando...');
+
+            try {
+                const resp = await queryLLM(text);
+                thinkEl.remove();
+                addMsg('assistant', resp);
+                history.push({ role: 'assistant', content: resp });
+                // Mark Ollama as online since we got a real response
+                if (!ollamaOnline) { ollamaOnline = true; }
+                setStatus('on', 'Falando...');
+                speak(resp);
+            } catch (e) {
+                thinkEl.remove();
+                const fb = 'Estou com o motor cognitivo offline. Verifique se o Ollama está rodando.';
+                addMsg('assistant', fb);
+                setStatus('off', 'LLM Offline');
+                speak(fb);
+            }
+        }
+
+        // ========== Ollama Query ==========
+        async function queryLLM(text) {
+            let ctx = SYSTEM_PROMPT + '\n\n';
+            for (const m of history.slice(-6)) {
+                ctx += (m.role === 'user' ? 'Newton: ' : 'Melanora: ') + m.content + '\n';
+            }
+            ctx += 'Newton: ' + text + '\nMelanora:';
+
+            const r = await fetch(OLLAMA_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    model: MODEL, prompt: ctx, stream: false,
+                    options: { temperature: 0.7, num_predict: 150, top_p: 0.9 }
+                }),
+                signal: AbortSignal.timeout(45000)
+            });
+            if (!r.ok) throw new Error(r.status);
+            const d = await r.json();
+            let t = (d.response || '').replace(/\*\*/g, '').replace(/\*/g, '').trim();
+            t = t.split('\nNewton:')[0].trim();
+            return t || 'Hmm, não consegui formular agora.';
+        }
+
+        // ========== TTS (Feminina) ==========
+        function speak(text) {
+            if (!synth) return;
+            synth.cancel();
+            const u = new SpeechSynthesisUtterance(text);
+            u.lang = 'pt-BR';
+
+            // Se for uma voz natural/online, usamos rate e pitch padrão para não distorcer o processamento neural
+            const isNatural = femaleVoice && /natural|online|google/i.test(femaleVoice.name);
+            u.rate = isNatural ? 1.0 : 1.1;
+            u.pitch = isNatural ? 1.0 : 1.05;
+
+            if (femaleVoice) u.voice = femaleVoice;
+            u.onstart = () => { dot.style.background = 'var(--emotion)'; };
+            u.onend = () => {
+                dot.style.background = '';
+                setStatus(ollamaOnline ? 'on' : 'off', ollamaOnline ? 'Pronta' : 'LLM Offline');
+                // Resume continuous listening after speaking
+                if (continuousMode) {
+                    setTimeout(() => { if (continuousMode) startListening(); }, 400);
+                }
+            };
+            synth.speak(u);
+        }
+
+        // ========== UI ==========
+        function addMsg(role, text) {
+            const isU = role === 'user';
+            const d = document.createElement('div');
+            d.className = `msg ${role}`;
+            d.innerHTML = `
+                <div class="av ${isU ? 'hu' : 'mel'}">${isU ? '👤' : '🧠'}</div>
+                <div class="bbl">${esc(text)}<span class="ts">${new Date().toLocaleTimeString('pt-BR')}</span></div>
+            `;
+            chat.appendChild(d);
+            chat.scrollTop = chat.scrollHeight;
+        }
+        function addThink() {
+            const d = document.createElement('div');
+            d.className = 'msg assistant';
+            d.innerHTML = `<div class="av mel">🧠</div><div class="bbl"><div class="think"><span></span><span></span><span></span></div></div>`;
+            chat.appendChild(d);
+            chat.scrollTop = chat.scrollHeight;
+            return d;
+        }
+        function setStatus(s, t) {
+            statusTxt.textContent = t;
+            dot.className = 'dot';
+            if (s === 'off') dot.classList.add('off');
+            if (s === 'listen') dot.classList.add('listen');
+        }
+        function showErr(m) {
+            errBanner.textContent = m;
+            errBanner.style.display = 'block';
+            setTimeout(() => { errBanner.style.display = 'none'; }, 5000);
+        }
+        function esc(t) { const d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+
+        // Shortcut
+        document.onkeydown = (e) => {
+            if (e.code === 'Space' && document.activeElement !== txtIn) {
+                e.preventDefault();
+                micBtn.click();
+            }
+        };
+    </script>
+</body>
+
+</html>

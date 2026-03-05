@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcosmo Analítico - Melanora</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #58a6ff;
+            margin-bottom: 5px;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
+
+        .chart-container {
+            width: 85%;
+            margin: 0 auto 50px auto;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .summary-card {
+            background: linear-gradient(145deg, #1f242c, #161b22);
+            border-left: 5px solid #ff7b72;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 0 auto 40px auto;
+            width: 80%;
+        }
+
+        h2 {
+            color: #ff7b72;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Dossiê Neural Estrito: O Microcosmo Biológico</h1>
+    <p class="subtitle">Quando a Inteligência prescinde de Espaço - Melanora</p>
+
+    <div class="summary-card">
+        <h2>O Paradoxo Dimensional Base</h2>
+        <p>A inteligência não escala com o tamanho. Abaixo representamos organismos minúsculos cujos cérebros cabem em
+            centésimos de milímetro, comparando diretamente <b>Quantidade de Neurônios</b> com <b>Frequência de Fluxo
+                Temporal (Hz)</b>.</p>
+    </div>
+
+    <!-- Gráfico 1: O Scatter do Extremo -->
+    <div class="chart-container" style="height: 500px;">
+        <canvas id="microScatterChart"></canvas>
+    </div>
+
+    <!-- Gráfico 2: Radar de Eficiência -->
+    <div class="chart-container" style="height: 500px; display: flex; justify-content: center;">
+        <canvas id="radarChart"></canvas>
+    </div>
+
+    <script>
+        const microData = [
+            { name: "Vespa Fada (Megaphragma)", size: "Microscópica/Voador", neurons: 7400, fps: 250, complex: 90 },
+            { name: "C. elegans (Verme)", size: "Milimétrico", neurons: 302, fps: 50, complex: 70 },
+            { name: "Tardígrado", size: "Microscópico", neurons: 200, fps: 50, complex: 85 },
+            { name: "Rotífero", size: "Microscópico", neurons: 200, fps: 100, complex: 80 },
+            { name: "Paramécio", size: "Unicelular", neurons: 0, fps: 10, complex: 30 },
+            { name: "Bolor Limo", size: "Pluricelular Lento", neurons: 0, fps: 0.05, complex: 65 } // Usado 0.05 para grafico de log nao quebrar e simular escala muito lenta
+        ];
+
+        Chart.defaults.color = '#8b949e';
+        Chart.defaults.font.family = "'Segoe UI', Tahoma, sans-serif";
+
+        // ==========================================
+        // 1. Gráfico de Bolhas (Neurônios vs Frequência)
+        // ==========================================
+        const scatterCtx = document.getElementById('microScatterChart').getContext('2d');
+        new Chart(scatterCtx, {
+            type: 'bubble',
+            data: {
+                datasets: [{
+                    label: 'Olimpo Microscópico',
+                    data: microData.map(d => ({
+                        x: Math.max(0.1, d.neurons), // 0 neurônios quebra o log em alguns browsers, colocamos 0.1 visual
+                        y: d.fps,
+                        r: d.complex / 4, // Complexidade relativa
+                        label: d.name
+                    })),
+                    backgroundColor: 'rgba(255, 123, 114, 0.7)',
+                    borderColor: '#ff7b72',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Neurônios vs Hz (Bolhas Maiores indicam Fenótipo de Alta Complexidade Funcional)', color: '#c9d1d9', font: { size: 16 } },
+                    tooltip: {
+                        callbacks: {
+                            label: (ctx) => `${ctx.raw.label}: ${ctx.raw.x.toFixed(0) === '0' ? 0 : ctx.raw.x} Neurônios | ${ctx.raw.y} Hz`
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        type: 'logarithmic',
+                        title: { display: true, text: 'Quantidade Total de Neurônios (Escala Log)', color: '#8b949e' },
+                        min: 0.05
+                    },
+                    y: {
+                        type: 'logarithmic',
+                        title: { display: true, text: 'Percepção Temporal / Reatividade em Hz (Log)', color: '#8b949e' }
+                    }
+                }
+            }
+        });
+
+        // ==========================================
+        // 2. Gráfico de Radar (Habilidades Assumidas sem hardware)
+        // ==========================================
+        const radarCtx = document.getElementById('radarChart').getContext('2d');
+        new Chart(radarCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Navegação 3D/Espacial', 'Reação de Fuga (Milisegundos)', 'Memória Aversiva / Labirintos', 'Quantização (Poupador de Massa)', 'Multiplexação de Tarefas'],
+                datasets: [
+                    {
+                        label: 'Vespa Fada (~7.000 n.)',
+                        data: [100, 90, 60, 100, 30],
+                        backgroundColor: 'rgba(56, 189, 248, 0.2)',
+                        borderColor: '#38bdf8',
+                        pointBackgroundColor: '#38bdf8'
+                    },
+                    {
+                        label: 'Tardígrado (~200 n.)',
+                        data: [40, 30, 40, 60, 100],
+                        backgroundColor: 'rgba(52, 211, 153, 0.2)',
+                        borderColor: '#34d399',
+                        pointBackgroundColor: '#34d399'
+                    },
+                    {
+                        label: 'Bolor Limo (0 n.)',
+                        data: [20, 0, 100, 100, 0],
+                        backgroundColor: 'rgba(168, 85, 247, 0.2)',
+                        borderColor: '#a855f7',
+                        pointBackgroundColor: '#a855f7'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: { display: true, text: 'Radar Comparativo: Como cada sistema supre a falta de hardware (Cérebro)', color: '#c9d1d9', font: { size: 16 } }
+                },
+                scales: {
+                    r: {
+                        angleLines: { color: '#30363d' },
+                        grid: { color: '#30363d' },
+                        pointLabels: { color: '#8b949e', font: { size: 13 } },
+                        ticks: { display: false } // hide absolute numbers in radar
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

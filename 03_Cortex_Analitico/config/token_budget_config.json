@@ -1,0 +1,30 @@
+{
+    "mecw_estimate": 600000,
+    "active_mode": "FOCUSED",
+    "modes": {
+        "CREATIVE": {
+            "budget_ratio": 0.80,
+            "apt_threshold": 1.2,
+            "description": "Brainstorm / Refactor — permite contexto expandido"
+        },
+        "FOCUSED": {
+            "budget_ratio": 0.60,
+            "apt_threshold": 1.8,
+            "description": "Execução / Fix — filtra o essencial"
+        },
+        "CRITICAL": {
+            "budget_ratio": 0.40,
+            "apt_threshold": 2.5,
+            "description": "Auditoria / Integridade — poda agressiva"
+        }
+    },
+    "guardian_thresholds": {
+        "warning": 0.70,
+        "compress": 0.85,
+        "block": 0.95
+    },
+    "counter_method": "heuristic",
+    "chars_per_token": 4,
+    "gwt_history_compress_to": 5,
+    "min_budget_per_agent": 500
+}

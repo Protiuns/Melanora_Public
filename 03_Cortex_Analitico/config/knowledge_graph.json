@@ -1,0 +1,2029 @@
+{
+  "nodes": [
+    {
+      "id": "MELANORA_CORE",
+      "centrality": 0.0583,
+      "type": "directory",
+      "label": "MELANORA_CORE"
+    },
+    {
+      "id": "MELANORA_CORE/dashboard_api.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dashboard_api.py"
+    },
+    {
+      "id": "MELANORA_CORE/gerar_visualizacao_grafica.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "gerar_visualizacao_grafica.py"
+    },
+    {
+      "id": "MELANORA_CORE/hardware_profiler.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "hardware_profiler.py"
+    },
+    {
+      "id": "MELANORA_CORE/learning_metrics.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "learning_metrics.py"
+    },
+    {
+      "id": "MELANORA_CORE/neural_bridge.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_bridge.py"
+    },
+    {
+      "id": "MELANORA_CORE/neural_prism.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_prism.py"
+    },
+    {
+      "id": "MELANORA_CORE/setup.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "setup.py"
+    },
+    {
+      "id": "MELANORA_CORE/shared_control_agent.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "shared_control_agent.py"
+    },
+    {
+      "id": "MELANORA_CORE/simulador_projecao_matematica.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "simulador_projecao_matematica.py"
+    },
+    {
+      "id": "MELANORA_CORE/test_heartbeat.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_heartbeat.py"
+    },
+    {
+      "id": "MELANORA_CORE/test_pathlib.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_pathlib.py"
+    },
+    {
+      "id": "MELANORA_CORE/voice_interview.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "voice_interview.py"
+    },
+    {
+      "id": "config",
+      "centrality": 0.1456,
+      "type": "directory",
+      "label": "config"
+    },
+    {
+      "id": "config/abstract_connections.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "abstract_connections.json"
+    },
+    {
+      "id": "config/connectome_graph.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "connectome_graph.json"
+    },
+    {
+      "id": "config/daemon_config.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "daemon_config.json"
+    },
+    {
+      "id": "config/dialogue_history.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dialogue_history.json"
+    },
+    {
+      "id": "config/efficiency_history.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "efficiency_history.json"
+    },
+    {
+      "id": "config/expectation_model.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "expectation_model.json"
+    },
+    {
+      "id": "config/knowledge_graph.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "knowledge_graph.json"
+    },
+    {
+      "id": "config/learning_metrics.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "learning_metrics.json"
+    },
+    {
+      "id": "config/llm_context_config.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "llm_context_config.json"
+    },
+    {
+      "id": "config/machine_profile.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "machine_profile.json"
+    },
+    {
+      "id": "config/neural_audit.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_audit.json"
+    },
+    {
+      "id": "config/neural_qualia.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_qualia.json"
+    },
+    {
+      "id": "config/neural_snapshots_log.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_snapshots_log.json"
+    },
+    {
+      "id": "config/neural_state (1).json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_state (1).json"
+    },
+    {
+      "id": "config/neural_state.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_state.json"
+    },
+    {
+      "id": "config/neural_tools_registry.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_tools_registry.json"
+    },
+    {
+      "id": "config/oath_seal.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "oath_seal.json"
+    },
+    {
+      "id": "config/persona_config.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "persona_config.json"
+    },
+    {
+      "id": "config/phonetic_dictionary.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "phonetic_dictionary.json"
+    },
+    {
+      "id": "config/results_buffer.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "results_buffer.json"
+    },
+    {
+      "id": "config/section_policy.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "section_policy.json"
+    },
+    {
+      "id": "config/specialists_registry.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "specialists_registry.json"
+    },
+    {
+      "id": "config/synaptic_weights.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "synaptic_weights.json"
+    },
+    {
+      "id": "config/task_queue.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "task_queue.json"
+    },
+    {
+      "id": "config/token_budget_config.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "token_budget_config.json"
+    },
+    {
+      "id": "config/user_pulse.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "user_pulse.json"
+    },
+    {
+      "id": "config/watchdog.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "watchdog.json"
+    },
+    {
+      "id": "config/workspace_broadcast_log.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "workspace_broadcast_log.json"
+    },
+    {
+      "id": "config\\synapses",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "synapses"
+    },
+    {
+      "id": "config\\synapses/test_node_01.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_node_01.json"
+    },
+    {
+      "id": "config\\synapses/test_node_02.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_node_02.json"
+    },
+    {
+      "id": "config\\vosk-model",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "vosk-model"
+    },
+    {
+      "id": "config\\vosk-model\\ivector",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "ivector"
+    },
+    {
+      "id": "cortex",
+      "centrality": 0.0631,
+      "type": "directory",
+      "label": "cortex"
+    },
+    {
+      "id": "cortex/watch_gameplay.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "watch_gameplay.py"
+    },
+    {
+      "id": "cortex/__init__.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "__init__.py"
+    },
+    {
+      "id": "cortex\\advanced",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "advanced"
+    },
+    {
+      "id": "cortex\\advanced/__init__.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "__init__.py"
+    },
+    {
+      "id": "cortex\\evolution",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "evolution"
+    },
+    {
+      "id": "cortex\\evolution/manifesto_forge.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "manifesto_forge.md"
+    },
+    {
+      "id": "cortex\\evolution/stigmergia_log.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "stigmergia_log.md"
+    },
+    {
+      "id": "cortex\\heuristics",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "heuristics"
+    },
+    {
+      "id": "cortex\\heuristics/local_semantic_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "local_semantic_engine.py"
+    },
+    {
+      "id": "cortex\\heuristics/sensory_perception.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "sensory_perception.py"
+    },
+    {
+      "id": "cortex\\logic",
+      "centrality": 0.1165,
+      "type": "directory",
+      "label": "logic"
+    },
+    {
+      "id": "cortex\\logic/advanced_analytics_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "advanced_analytics_engine.py"
+    },
+    {
+      "id": "cortex\\logic/area_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "area_manager.py"
+    },
+    {
+      "id": "cortex\\logic/axiom_associator.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "axiom_associator.py"
+    },
+    {
+      "id": "cortex\\logic/connection_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "connection_manager.py"
+    },
+    {
+      "id": "cortex\\logic/connectome_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "connectome_engine.py"
+    },
+    {
+      "id": "cortex\\logic/consolidation_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "consolidation_engine.py"
+    },
+    {
+      "id": "cortex\\logic/cortex_reflexo.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "cortex_reflexo.py"
+    },
+    {
+      "id": "cortex\\logic/dynamic_math_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dynamic_math_engine.py"
+    },
+    {
+      "id": "cortex\\logic/global_workspace.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "global_workspace.py"
+    },
+    {
+      "id": "cortex\\logic/homeostasis_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "homeostasis_engine.py"
+    },
+    {
+      "id": "cortex\\logic/neural_impulse.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_impulse.py"
+    },
+    {
+      "id": "cortex\\logic/neural_irrigation.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_irrigation.py"
+    },
+    {
+      "id": "cortex\\logic/plasticity_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "plasticity_engine.py"
+    },
+    {
+      "id": "cortex\\logic/predictive_observer.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "predictive_observer.py"
+    },
+    {
+      "id": "cortex\\logic/premotor_cortex.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "premotor_cortex.py"
+    },
+    {
+      "id": "cortex\\logic/pulse_sequencer.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "pulse_sequencer.py"
+    },
+    {
+      "id": "cortex\\logic/rules_evaluator.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "rules_evaluator.py"
+    },
+    {
+      "id": "cortex\\logic/symbiosis_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "symbiosis_engine.py"
+    },
+    {
+      "id": "cortex\\logic/synaptic_wave_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "synaptic_wave_engine.py"
+    },
+    {
+      "id": "cortex\\logic/synthesis_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "synthesis_engine.py"
+    },
+    {
+      "id": "cortex\\logic/token_budget_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "token_budget_manager.py"
+    },
+    {
+      "id": "cortex\\logic/watchdog_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "watchdog_engine.py"
+    },
+    {
+      "id": "cortex\\logic/__init__.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "__init__.py"
+    },
+    {
+      "id": "cortex\\micro_agents",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "micro_agents"
+    },
+    {
+      "id": "cortex\\micro_agents/tardigrade_net.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "tardigrade_net.py"
+    },
+    {
+      "id": "cortex\\motor",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "motor"
+    },
+    {
+      "id": "cortex\\motor/virtual_actuators.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "virtual_actuators.py"
+    },
+    {
+      "id": "cortex\\perception",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "perception"
+    },
+    {
+      "id": "cortex\\perception/math_vision.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "math_vision.py"
+    },
+    {
+      "id": "cortex\\security",
+      "centrality": 0.0194,
+      "type": "directory",
+      "label": "security"
+    },
+    {
+      "id": "cortex\\security/oath_guardian.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "oath_guardian.py"
+    },
+    {
+      "id": "cortex\\security/oath_seal_backup.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "oath_seal_backup.json"
+    },
+    {
+      "id": "cortex\\security/security_nexus.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "security_nexus.py"
+    },
+    {
+      "id": "cortex\\specialists",
+      "centrality": 0.1311,
+      "type": "directory",
+      "label": "specialists"
+    },
+    {
+      "id": "cortex\\specialists/advanced_calculator.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "advanced_calculator.py"
+    },
+    {
+      "id": "cortex\\specialists/analytical_qualia_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "analytical_qualia_engine.py"
+    },
+    {
+      "id": "cortex\\specialists/audition_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "audition_engine.py"
+    },
+    {
+      "id": "cortex\\specialists/cortex_corretivo.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "cortex_corretivo.py"
+    },
+    {
+      "id": "cortex\\specialists/dialogue_orchestrator.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dialogue_orchestrator.py"
+    },
+    {
+      "id": "cortex\\specialists/dream_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dream_engine.py"
+    },
+    {
+      "id": "cortex\\specialists/gaming_specialist.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "gaming_specialist.py"
+    },
+    {
+      "id": "cortex\\specialists/haptic_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "haptic_engine.py"
+    },
+    {
+      "id": "cortex\\specialists/heuristic_discovery.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "heuristic_discovery.py"
+    },
+    {
+      "id": "cortex\\specialists/knowledge_architect.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "knowledge_architect.py"
+    },
+    {
+      "id": "cortex\\specialists/metrics_counter.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "metrics_counter.py"
+    },
+    {
+      "id": "cortex\\specialists/monk_agent.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "monk_agent.py"
+    },
+    {
+      "id": "cortex\\specialists/neural_inference.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_inference.py"
+    },
+    {
+      "id": "cortex\\specialists/neural_load_balancer.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_load_balancer.py"
+    },
+    {
+      "id": "cortex\\specialists/neural_tool_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_tool_manager.py"
+    },
+    {
+      "id": "cortex\\specialists/notebook_researcher.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "notebook_researcher.py"
+    },
+    {
+      "id": "cortex\\specialists/perception_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "perception_engine.py"
+    },
+    {
+      "id": "cortex\\specialists/semantic_memory.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "semantic_memory.py"
+    },
+    {
+      "id": "cortex\\specialists/speech_cortex.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "speech_cortex.py"
+    },
+    {
+      "id": "cortex\\specialists/speech_synthesis.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "speech_synthesis.py"
+    },
+    {
+      "id": "cortex\\specialists/synesthesia_bridge.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "synesthesia_bridge.py"
+    },
+    {
+      "id": "cortex\\specialists/system_module.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "system_module.py"
+    },
+    {
+      "id": "cortex\\specialists/vision_module.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "vision_module.py"
+    },
+    {
+      "id": "cortex\\specialists/voice_bridge.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "voice_bridge.py"
+    },
+    {
+      "id": "cortex\\specialists/web_scout.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "web_scout.py"
+    },
+    {
+      "id": "cortex\\specialists/__init__.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "__init__.py"
+    },
+    {
+      "id": "cortex\\system_2",
+      "centrality": 0.0243,
+      "type": "directory",
+      "label": "system_2"
+    },
+    {
+      "id": "cortex\\system_2/analyst.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "analyst.py"
+    },
+    {
+      "id": "cortex\\system_2/behavior_tree_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "behavior_tree_manager.py"
+    },
+    {
+      "id": "cortex\\system_2/deep_architect.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "deep_architect.py"
+    },
+    {
+      "id": "cortex\\system_2/night_auditor.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "night_auditor.py"
+    },
+    {
+      "id": "cortex\\utils",
+      "centrality": 0.1699,
+      "type": "directory",
+      "label": "utils"
+    },
+    {
+      "id": "cortex\\utils/audio_math.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "audio_math.py"
+    },
+    {
+      "id": "cortex\\utils/cortex_utils.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "cortex_utils.py"
+    },
+    {
+      "id": "cortex\\utils/env_manager.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "env_manager.py"
+    },
+    {
+      "id": "cortex\\utils/estudo_fonetica_silabica_sintese.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "estudo_fonetica_silabica_sintese.md"
+    },
+    {
+      "id": "cortex\\utils/estudo_oratoria_expressao_ativa.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "estudo_oratoria_expressao_ativa.md"
+    },
+    {
+      "id": "cortex\\utils/estudo_tecnico_canto_sintese.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "estudo_tecnico_canto_sintese.md"
+    },
+    {
+      "id": "cortex\\utils/file_ops_module.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "file_ops_module.py"
+    },
+    {
+      "id": "cortex\\utils/math_module.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "math_module.py"
+    },
+    {
+      "id": "cortex\\utils/neural_reader.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_reader.py"
+    },
+    {
+      "id": "cortex\\utils/neural_snapshot.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_snapshot.py"
+    },
+    {
+      "id": "cortex\\utils/prosody_analyzer.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "prosody_analyzer.py"
+    },
+    {
+      "id": "cortex\\utils/script_executor.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "script_executor.py"
+    },
+    {
+      "id": "cortex\\utils/synaptic_core.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "synaptic_core.py"
+    },
+    {
+      "id": "cortex\\utils/test_autonomous_learning.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_autonomous_learning.py"
+    },
+    {
+      "id": "cortex\\utils/test_behavior_evolution.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_behavior_evolution.py"
+    },
+    {
+      "id": "cortex\\utils/test_cerebral_gating.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_cerebral_gating.py"
+    },
+    {
+      "id": "cortex\\utils/test_jump_to_100.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_jump_to_100.py"
+    },
+    {
+      "id": "cortex\\utils/test_neural_feedback.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_neural_feedback.py"
+    },
+    {
+      "id": "cortex\\utils/test_neuro_math_dynamic.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_neuro_math_dynamic.py"
+    },
+    {
+      "id": "cortex\\utils/test_phase_24.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_phase_24.py"
+    },
+    {
+      "id": "cortex\\utils/test_phase_27_efficacy.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_phase_27_efficacy.py"
+    },
+    {
+      "id": "cortex\\utils/test_phase_28_darwinism.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_phase_28_darwinism.py"
+    },
+    {
+      "id": "cortex\\utils/test_phase_29_reflexes.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_phase_29_reflexes.py"
+    },
+    {
+      "id": "cortex\\utils/test_phase_33_circuitry.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_phase_33_circuitry.py"
+    },
+    {
+      "id": "cortex\\utils/test_prioritization.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_prioritization.py"
+    },
+    {
+      "id": "cortex\\utils/test_security_shields.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_security_shields.py"
+    },
+    {
+      "id": "cortex\\utils/test_situational_protocol.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_situational_protocol.py"
+    },
+    {
+      "id": "cortex\\utils/test_state_preservation.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_state_preservation.py"
+    },
+    {
+      "id": "cortex\\utils/test_state_preservation_unit.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_state_preservation_unit.py"
+    },
+    {
+      "id": "cortex\\utils/test_synaptic_feedback_loop.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_synaptic_feedback_loop.py"
+    },
+    {
+      "id": "cortex\\utils/test_synaptic_orchestration.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_synaptic_orchestration.py"
+    },
+    {
+      "id": "cortex\\utils/test_synaptic_pulses_light.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_synaptic_pulses_light.py"
+    },
+    {
+      "id": "cortex\\utils/verify_notebook_sync.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "verify_notebook_sync.py"
+    },
+    {
+      "id": "cortex\\utils/__init__.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "__init__.py"
+    },
+    {
+      "id": "dashboard",
+      "centrality": 0.0291,
+      "type": "directory",
+      "label": "dashboard"
+    },
+    {
+      "id": "dashboard/package-lock.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "package-lock.json"
+    },
+    {
+      "id": "dashboard/package.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "package.json"
+    },
+    {
+      "id": "dashboard/README.md",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "README.md"
+    },
+    {
+      "id": "dashboard\\dist",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "dist"
+    },
+    {
+      "id": "dashboard\\dist\\assets",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "assets"
+    },
+    {
+      "id": "dashboard\\public",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "public"
+    },
+    {
+      "id": "dashboard\\src",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "src"
+    },
+    {
+      "id": "dashboard\\src\\assets",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "assets"
+    },
+    {
+      "id": "dashboard\\src\\components",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "components"
+    },
+    {
+      "id": "engines",
+      "centrality": 0.0,
+      "type": "directory",
+      "label": "engines"
+    },
+    {
+      "id": "logs",
+      "centrality": 0.0,
+      "type": "directory",
+      "label": "logs"
+    },
+    {
+      "id": "memoria_vetorial",
+      "centrality": 0.0097,
+      "type": "directory",
+      "label": "memoria_vetorial"
+    },
+    {
+      "id": "memoria_vetorial/semantic_index.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "semantic_index.json"
+    },
+    {
+      "id": "memoria_vetorial/user_preferences.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "user_preferences.json"
+    },
+    {
+      "id": "process_integrity",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "process_integrity"
+    },
+    {
+      "id": "process_integrity/dashboard_failsafe.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "dashboard_failsafe.py"
+    },
+    {
+      "id": "process_integrity/integrity_watchdog.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "integrity_watchdog.py"
+    },
+    {
+      "id": "process_integrity/run_watchdog_loop.bat",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "run_watchdog_loop.bat"
+    },
+    {
+      "id": "scripts",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "scripts"
+    },
+    {
+      "id": "scripts/afl_feedback_loop.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "afl_feedback_loop.py"
+    },
+    {
+      "id": "static",
+      "centrality": 0.0,
+      "type": "directory",
+      "label": "static"
+    },
+    {
+      "id": "tests",
+      "centrality": 0.0922,
+      "type": "directory",
+      "label": "tests"
+    },
+    {
+      "id": "tests/speech_test_v2.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "speech_test_v2.py"
+    },
+    {
+      "id": "tests/test_analytics.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_analytics.py"
+    },
+    {
+      "id": "tests/test_biomimetic_bridge.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_biomimetic_bridge.py"
+    },
+    {
+      "id": "tests/test_decentralized_nodes.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_decentralized_nodes.py"
+    },
+    {
+      "id": "tests/test_gaming_autonomy.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_gaming_autonomy.py"
+    },
+    {
+      "id": "tests/test_impulso.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_impulso.py"
+    },
+    {
+      "id": "tests/test_irrigacao_neural.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_irrigacao_neural.py"
+    },
+    {
+      "id": "tests/test_meditation_state.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_meditation_state.py"
+    },
+    {
+      "id": "tests/test_neural_parallelism.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_neural_parallelism.py"
+    },
+    {
+      "id": "tests/test_physical_loop.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_physical_loop.py"
+    },
+    {
+      "id": "tests/test_predictive_learning.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_predictive_learning.py"
+    },
+    {
+      "id": "tests/test_premotor_cortex.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_premotor_cortex.py"
+    },
+    {
+      "id": "tests/test_section_gating.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_section_gating.py"
+    },
+    {
+      "id": "tests/test_speech_cortex_v2.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_speech_cortex_v2.py"
+    },
+    {
+      "id": "tests/test_summation.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_summation.py"
+    },
+    {
+      "id": "tests/test_token_budget.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "test_token_budget.py"
+    },
+    {
+      "id": "tests/verify_phase13.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "verify_phase13.py"
+    },
+    {
+      "id": "tests/verify_phase15.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "verify_phase15.py"
+    },
+    {
+      "id": "tests/verify_phase20.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "verify_phase20.py"
+    },
+    {
+      "id": "tools",
+      "centrality": 0.0049,
+      "type": "directory",
+      "label": "tools"
+    },
+    {
+      "id": "tools/neural_viz_engine.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "neural_viz_engine.py"
+    },
+    {
+      "id": "topography_engine",
+      "centrality": 0.0146,
+      "type": "directory",
+      "label": "topography_engine"
+    },
+    {
+      "id": "topography_engine/cognitive_flow_sensor.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "cognitive_flow_sensor.py"
+    },
+    {
+      "id": "topography_engine/flow_state.json",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "flow_state.json"
+    },
+    {
+      "id": "topography_engine/gap_analyzer.py",
+      "centrality": 0.0049,
+      "type": "file",
+      "label": "gap_analyzer.py"
+    }
+  ],
+  "edges": [
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/dashboard_api.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/gerar_visualizacao_grafica.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/hardware_profiler.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/learning_metrics.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/neural_bridge.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/neural_prism.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/setup.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/shared_control_agent.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/simulador_projecao_matematica.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/test_heartbeat.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/test_pathlib.py"
+    },
+    {
+      "source": "MELANORA_CORE",
+      "target": "MELANORA_CORE/voice_interview.py"
+    },
+    {
+      "source": "config",
+      "target": "config/abstract_connections.json"
+    },
+    {
+      "source": "config",
+      "target": "config/connectome_graph.json"
+    },
+    {
+      "source": "config",
+      "target": "config/daemon_config.json"
+    },
+    {
+      "source": "config",
+      "target": "config/dialogue_history.json"
+    },
+    {
+      "source": "config",
+      "target": "config/efficiency_history.json"
+    },
+    {
+      "source": "config",
+      "target": "config/expectation_model.json"
+    },
+    {
+      "source": "config",
+      "target": "config/knowledge_graph.json"
+    },
+    {
+      "source": "config",
+      "target": "config/learning_metrics.json"
+    },
+    {
+      "source": "config",
+      "target": "config/llm_context_config.json"
+    },
+    {
+      "source": "config",
+      "target": "config/machine_profile.json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_audit.json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_qualia.json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_snapshots_log.json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_state (1).json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_state.json"
+    },
+    {
+      "source": "config",
+      "target": "config/neural_tools_registry.json"
+    },
+    {
+      "source": "config",
+      "target": "config/oath_seal.json"
+    },
+    {
+      "source": "config",
+      "target": "config/persona_config.json"
+    },
+    {
+      "source": "config",
+      "target": "config/phonetic_dictionary.json"
+    },
+    {
+      "source": "config",
+      "target": "config/results_buffer.json"
+    },
+    {
+      "source": "config",
+      "target": "config/section_policy.json"
+    },
+    {
+      "source": "config",
+      "target": "config/specialists_registry.json"
+    },
+    {
+      "source": "config",
+      "target": "config/synaptic_weights.json"
+    },
+    {
+      "source": "config",
+      "target": "config/task_queue.json"
+    },
+    {
+      "source": "config",
+      "target": "config/token_budget_config.json"
+    },
+    {
+      "source": "config",
+      "target": "config/user_pulse.json"
+    },
+    {
+      "source": "config",
+      "target": "config/watchdog.json"
+    },
+    {
+      "source": "config",
+      "target": "config/workspace_broadcast_log.json"
+    },
+    {
+      "source": "config",
+      "target": "config\\synapses"
+    },
+    {
+      "source": "config",
+      "target": "config\\vosk-model"
+    },
+    {
+      "source": "config\\synapses",
+      "target": "config\\synapses/test_node_01.json"
+    },
+    {
+      "source": "config\\synapses",
+      "target": "config\\synapses/test_node_02.json"
+    },
+    {
+      "source": "config\\vosk-model",
+      "target": "config\\vosk-model\\ivector"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex/watch_gameplay.py"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex/__init__.py"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\advanced"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\evolution"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\heuristics"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\logic"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\micro_agents"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\motor"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\perception"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\security"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\specialists"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\system_2"
+    },
+    {
+      "source": "cortex",
+      "target": "cortex\\utils"
+    },
+    {
+      "source": "cortex\\advanced",
+      "target": "cortex\\advanced/__init__.py"
+    },
+    {
+      "source": "cortex\\evolution",
+      "target": "cortex\\evolution/manifesto_forge.md"
+    },
+    {
+      "source": "cortex\\evolution",
+      "target": "cortex\\evolution/stigmergia_log.md"
+    },
+    {
+      "source": "cortex\\heuristics",
+      "target": "cortex\\heuristics/local_semantic_engine.py"
+    },
+    {
+      "source": "cortex\\heuristics",
+      "target": "cortex\\heuristics/sensory_perception.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/advanced_analytics_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/area_manager.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/axiom_associator.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/connection_manager.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/connectome_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/consolidation_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/cortex_reflexo.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/dynamic_math_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/global_workspace.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/homeostasis_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/neural_impulse.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/neural_irrigation.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/plasticity_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/predictive_observer.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/premotor_cortex.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/pulse_sequencer.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/rules_evaluator.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/symbiosis_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/synaptic_wave_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/synthesis_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/token_budget_manager.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/watchdog_engine.py"
+    },
+    {
+      "source": "cortex\\logic",
+      "target": "cortex\\logic/__init__.py"
+    },
+    {
+      "source": "cortex\\micro_agents",
+      "target": "cortex\\micro_agents/tardigrade_net.py"
+    },
+    {
+      "source": "cortex\\motor",
+      "target": "cortex\\motor/virtual_actuators.py"
+    },
+    {
+      "source": "cortex\\perception",
+      "target": "cortex\\perception/math_vision.py"
+    },
+    {
+      "source": "cortex\\security",
+      "target": "cortex\\security/oath_guardian.py"
+    },
+    {
+      "source": "cortex\\security",
+      "target": "cortex\\security/oath_seal_backup.json"
+    },
+    {
+      "source": "cortex\\security",
+      "target": "cortex\\security/security_nexus.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/advanced_calculator.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/analytical_qualia_engine.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/audition_engine.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/cortex_corretivo.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/dialogue_orchestrator.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/dream_engine.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/gaming_specialist.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/haptic_engine.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/heuristic_discovery.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/knowledge_architect.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/metrics_counter.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/monk_agent.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/neural_inference.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/neural_load_balancer.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/neural_tool_manager.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/notebook_researcher.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/perception_engine.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/semantic_memory.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/speech_cortex.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/speech_synthesis.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/synesthesia_bridge.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/system_module.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/vision_module.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/voice_bridge.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/web_scout.py"
+    },
+    {
+      "source": "cortex\\specialists",
+      "target": "cortex\\specialists/__init__.py"
+    },
+    {
+      "source": "cortex\\system_2",
+      "target": "cortex\\system_2/analyst.py"
+    },
+    {
+      "source": "cortex\\system_2",
+      "target": "cortex\\system_2/behavior_tree_manager.py"
+    },
+    {
+      "source": "cortex\\system_2",
+      "target": "cortex\\system_2/deep_architect.py"
+    },
+    {
+      "source": "cortex\\system_2",
+      "target": "cortex\\system_2/night_auditor.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/audio_math.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/cortex_utils.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/env_manager.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/estudo_fonetica_silabica_sintese.md"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/estudo_oratoria_expressao_ativa.md"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/estudo_tecnico_canto_sintese.md"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/file_ops_module.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/math_module.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/neural_reader.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/neural_snapshot.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/prosody_analyzer.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/script_executor.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/synaptic_core.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_autonomous_learning.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_behavior_evolution.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_cerebral_gating.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_jump_to_100.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_neural_feedback.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_neuro_math_dynamic.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_phase_24.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_phase_27_efficacy.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_phase_28_darwinism.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_phase_29_reflexes.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_phase_33_circuitry.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_prioritization.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_security_shields.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_situational_protocol.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_state_preservation.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_state_preservation_unit.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_synaptic_feedback_loop.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_synaptic_orchestration.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/test_synaptic_pulses_light.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/verify_notebook_sync.py"
+    },
+    {
+      "source": "cortex\\utils",
+      "target": "cortex\\utils/__init__.py"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard/package-lock.json"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard/package.json"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard/README.md"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard\\dist"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard\\public"
+    },
+    {
+      "source": "dashboard",
+      "target": "dashboard\\src"
+    },
+    {
+      "source": "dashboard\\dist",
+      "target": "dashboard\\dist\\assets"
+    },
+    {
+      "source": "dashboard\\src",
+      "target": "dashboard\\src\\assets"
+    },
+    {
+      "source": "dashboard\\src",
+      "target": "dashboard\\src\\components"
+    },
+    {
+      "source": "memoria_vetorial",
+      "target": "memoria_vetorial/semantic_index.json"
+    },
+    {
+      "source": "memoria_vetorial",
+      "target": "memoria_vetorial/user_preferences.json"
+    },
+    {
+      "source": "process_integrity",
+      "target": "process_integrity/dashboard_failsafe.py"
+    },
+    {
+      "source": "process_integrity",
+      "target": "process_integrity/integrity_watchdog.py"
+    },
+    {
+      "source": "process_integrity",
+      "target": "process_integrity/run_watchdog_loop.bat"
+    },
+    {
+      "source": "scripts",
+      "target": "scripts/afl_feedback_loop.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/speech_test_v2.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_analytics.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_biomimetic_bridge.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_decentralized_nodes.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_gaming_autonomy.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_impulso.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_irrigacao_neural.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_meditation_state.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_neural_parallelism.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_physical_loop.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_predictive_learning.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_premotor_cortex.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_section_gating.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_speech_cortex_v2.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_summation.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/test_token_budget.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/verify_phase13.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/verify_phase15.py"
+    },
+    {
+      "source": "tests",
+      "target": "tests/verify_phase20.py"
+    },
+    {
+      "source": "tools",
+      "target": "tools/neural_viz_engine.py"
+    },
+    {
+      "source": "topography_engine",
+      "target": "topography_engine/cognitive_flow_sensor.py"
+    },
+    {
+      "source": "topography_engine",
+      "target": "topography_engine/flow_state.json"
+    },
+    {
+      "source": "topography_engine",
+      "target": "topography_engine/gap_analyzer.py"
+    }
+  ],
+  "summary": {
+    "node_count": 207,
+    "edge_count": 194,
+    "most_central": "cortex\\utils"
+  }
+}

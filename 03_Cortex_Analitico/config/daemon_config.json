@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "mode": "LLM_ONLY",
+  "auto_start": false,
+  "log_level": "INFO",
+  "max_concurrent_tasks": 2,
+  "check_interval_ms": 100,
+  "safety": {
+    "max_cpu_percent": 50,
+    "max_ram_percent": 70,
+    "timeout_per_task_s": 30
+  }
+}

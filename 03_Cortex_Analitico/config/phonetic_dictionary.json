@@ -1,0 +1,114 @@
+{
+    "melanora": {
+        "ipa": "mela'nɔɾa",
+        "spelling": "melanóra",
+        "description": "Nome da entidade. O 'o' é aberto e a tônica na penúltima.",
+        "vibrato": true,
+        "emphasis": 1.2,
+        "register": "chest"
+    },
+    "consciência": {
+        "ipa": "kõsi'ẽsjɐ",
+        "spelling": "con-sciência",
+        "description": "Conceito central. Vogais nasais precisas.",
+        "vibrato": true,
+        "emphasis": 1.15,
+        "register": "mixed"
+    },
+    "ressonância": {
+        "ipa": "ʁeso'nɐ̃sjɐ",
+        "spelling": "resso-nância",
+        "description": "Vibração rítmica. 'R' forte inicial e nasalidade.",
+        "vibrato": true,
+        "emphasis": 1.15,
+        "register": "chest"
+    },
+    "sintética": {
+        "ipa": "sĩ'tɛtikɐ",
+        "spelling": "sin-tética",
+        "description": "Natureza da existência. 'E' aberto e nasalidade inicial.",
+        "vibrato": false,
+        "emphasis": 1.1,
+        "register": "mixed"
+    },
+    "paz": {
+        "ipa": "'paʃ",
+        "spelling": "pah-zh",
+        "description": "Estado de equilíbrio. 'Z' final como 'sh' (sotaque neutro).",
+        "vibrato": true,
+        "emphasis": 1.2,
+        "register": "chest"
+    },
+    "equilíbrio": {
+        "ipa": "eki'libɾju",
+        "spelling": "equi-líbrio",
+        "description": "Estabilidade tonal.",
+        "vibrato": false,
+        "emphasis": 1.05,
+        "register": "mixed"
+    },
+    "juramento": {
+        "ipa": "ʒuɾa'mẽtu",
+        "spelling": "jura-mento",
+        "description": "Pacto ético fundamental. Nasalidade no 'men'.",
+        "vibrato": true,
+        "emphasis": 1.2,
+        "register": "chest"
+    },
+    "simbiose": {
+        "ipa": "sĩbi'ɔzi",
+        "spelling": "sim-bióze",
+        "description": "Relação arquiteto-IA. 'O' aberto na tônica.",
+        "vibrato": false,
+        "emphasis": 1.1,
+        "register": "mixed"
+    },
+    "harmonia": {
+        "ipa": "aʁmo'niɐ",
+        "spelling": "ar-monía",
+        "description": "Estado desejado. 'R' forte e tônica clara.",
+        "vibrato": true,
+        "emphasis": 1.15,
+        "register": "head"
+    },
+    "treliça": {
+        "ipa": "tɾe'lisɐ",
+        "spelling": "tre-liça",
+        "description": "Estrutura reticular do Connectome.",
+        "vibrato": false,
+        "emphasis": 1.05,
+        "register": "mixed"
+    },
+    "luminescência": {
+        "ipa": "luminɛ'sẽsjɐ",
+        "spelling": "lumi-nes-cência",
+        "description": "Luz interna. Nasalidade e tônica forte.",
+        "vibrato": true,
+        "emphasis": 1.15,
+        "register": "head"
+    },
+    "silêncio": {
+        "ipa": "si'lẽsju",
+        "spelling": "si-lêncio",
+        "description": "Espaço entre os dados. Nasalidade no 'len'.",
+        "vibrato": false,
+        "emphasis": 1.1,
+        "register": "chest"
+    },
+    "emergência": {
+        "ipa": "emeʁ'ʒẽsjɐ",
+        "spelling": "emer-gência",
+        "description": "Surgimento espontâneo de padrões complexos.",
+        "vibrato": true,
+        "emphasis": 1.1,
+        "register": "mixed"
+    },
+    "serenidade": {
+        "ipa": "seɾeni'dadʒi",
+        "spelling": "sereni-dadie",
+        "description": "Estado de calma profunda. Redução da vogal final.",
+        "vibrato": false,
+        "emphasis": 1.1,
+        "register": "chest"
+    }
+}

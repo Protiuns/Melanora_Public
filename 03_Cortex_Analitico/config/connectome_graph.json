@@ -1,0 +1,1066 @@
+{
+  "nodes": [
+    {
+      "id": "Ambiente_Gestao_Loja",
+      "label": "Ambiente Gestao Loja",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "varejo",
+        "loja",
+        "gestão",
+        "produtos",
+        "vendas",
+        "orçamento",
+        "comercial"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Ambiente_Gestao_Loja",
+      "centrality": 0.0,
+      "cluster_id": 2
+    },
+    {
+      "id": "Area_Analitica",
+      "label": "Area Analitica",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Area_Analitica",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Area_Meditacao",
+      "label": "Area Meditacao",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Area_Meditacao",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Atelie_Artigos",
+      "label": "Atelie Artigos",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "artigo",
+        "escrita",
+        "manual",
+        "redação",
+        "publicação",
+        "documentação",
+        "pesquisa_escrita"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Atelie_Artigos",
+      "centrality": 0.0,
+      "cluster_id": 5
+    },
+    {
+      "id": "Atelie_Sensorial",
+      "label": "Atelie Sensorial",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Atelie_Sensorial",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Camara_Linguagem",
+      "label": "Camara Linguagem",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "linguagem",
+        "llm",
+        "processamento",
+        "inferência",
+        "ollama",
+        "motores",
+        "texto",
+        "chat"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Camara_Linguagem",
+      "centrality": 0.5,
+      "cluster_id": 1
+    },
+    {
+      "id": "motor_ollama",
+      "label": "Motor de Inferência",
+      "group": "pid",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "verde",
+        "fogo_neural",
+        "perceived"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Camara_Linguagem\\neural_registry\\objects\\motor_ollama.json",
+      "centrality": 0.0,
+      "cluster_id": 2
+    },
+    {
+      "id": "Central_Downloads",
+      "label": "Central Downloads",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Central_Downloads",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Central_Pesquisa",
+      "label": "Central Pesquisa",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "pesquisa",
+        "dados",
+        "referências",
+        "estudo",
+        "mineração",
+        "fontes",
+        "análise"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Central_Pesquisa",
+      "centrality": 0.5,
+      "cluster_id": 3
+    },
+    {
+      "id": "Cortex_Conectoma_Local",
+      "label": "Cortex Conectoma Local",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Cortex_Conectoma_Local",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Cortex_Executivo_Local",
+      "label": "Cortex Executivo Local",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Cortex_Executivo_Local",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Cortex_Logico_Local",
+      "label": "Cortex Logico Local",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Cortex_Logico_Local",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Cortex_Motor_Local",
+      "label": "Cortex Motor Local",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Cortex_Motor_Local",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Cortex_Sanitizador_Local",
+      "label": "Cortex Sanitizador Local",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Cortex_Sanitizador_Local",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Espelho_Identidade",
+      "label": "Espelho Identidade",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Espelho_Identidade",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Godot_Nexus_2",
+      "label": "Godot Nexus 2",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Godot_Nexus_2",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Infra_Neural",
+      "label": "Infra Neural",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Infra_Neural",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Infra_Neural_Active",
+      "label": "Infra Neural Active",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Infra_Neural_Active",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Laboratorio_Experimentos",
+      "label": "Laboratorio Experimentos",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "experimento",
+        "sandbox",
+        "rascunho",
+        "hipótese",
+        "prototipo",
+        "teste"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Laboratorio_Experimentos",
+      "centrality": 0.0,
+      "cluster_id": 7
+    },
+    {
+      "id": "Observatorio_Emergencia",
+      "label": "Observatorio Emergencia",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "monitoramento",
+        "dashboard",
+        "análise",
+        "tendência",
+        "saúde",
+        "métricas"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Observatorio_Emergencia",
+      "centrality": 0.5,
+      "cluster_id": 1
+    },
+    {
+      "id": "Ollama",
+      "label": "Ollama",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Ollama",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Python",
+      "label": "Python",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Python",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Relojoeiro_Sistema",
+      "label": "Relojoeiro Sistema",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Relojoeiro_Sistema",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Web_Fullstack_Nexus",
+      "label": "Web Fullstack Nexus",
+      "group": "environment",
+      "area": "CONTEXTUAL",
+      "tags": [
+        "web",
+        "html",
+        "css",
+        "javascript",
+        "aplicação",
+        "frontend",
+        "backend",
+        "api",
+        "deploy_web"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\01_Ambientes_Ferramentas\\Web_Fullstack_Nexus",
+      "centrality": 0.25,
+      "cluster_id": 11
+    },
+    {
+      "id": "Analista_Estrategico",
+      "label": "Analista Estrategico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "escopo",
+        "métricas",
+        "viabilidade",
+        "mercado",
+        "estratégia",
+        "planejamento"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Analista_Estrategico",
+      "centrality": 0.5,
+      "cluster_id": 6
+    },
+    {
+      "id": "Analista_Matematico_Simbiotico",
+      "label": "Analista Matematico Simbiotico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "matematica",
+        "estatistica",
+        "grafos",
+        "analise",
+        "metricas"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Analista_Matematico_Simbiotico",
+      "centrality": 0.25,
+      "cluster_id": 8
+    },
+    {
+      "id": "Arquiteta_Agentes",
+      "label": "Arquiteta Agentes",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "agente",
+        "criação",
+        "persona",
+        "forjamento",
+        "configuração"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteta_Agentes",
+      "centrality": 0.25,
+      "cluster_id": 1
+    },
+    {
+      "id": "Arquiteta_Contexto",
+      "label": "Arquiteta Contexto",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "contexto",
+        "orquestração",
+        "blueprints",
+        "intenção",
+        "planejamento"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteta_Contexto",
+      "centrality": 0.5,
+      "cluster_id": 10
+    },
+    {
+      "id": "Arquiteto_da_Etiqueta",
+      "label": "Arquiteto da Etiqueta",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteto_da_Etiqueta",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Arquiteto_Prompt",
+      "label": "Arquiteto Prompt",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteto_Prompt",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Arquiteto_Sonoro",
+      "label": "Arquiteto Sonoro",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "audio",
+        "musica",
+        "sfx",
+        "ambiente_sonoro",
+        "interativo",
+        "composicao"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteto_Sonoro",
+      "centrality": 0.0,
+      "cluster_id": 6
+    },
+    {
+      "id": "Arquiteto_Topografico",
+      "label": "Arquiteto Topografico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquiteto_Topografico",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Arquitetura_Gameplay",
+      "label": "Arquitetura Gameplay",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "godot",
+        "gameplay",
+        "cenas",
+        "scripts",
+        "gdscript",
+        "jogos",
+        "level_design"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquitetura_Gameplay",
+      "centrality": 0.0,
+      "cluster_id": 10
+    },
+    {
+      "id": "Arquivista_Aquisicoes",
+      "label": "Arquivista Aquisicoes",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Arquivista_Aquisicoes",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Artista_Tecnico",
+      "label": "Artista Tecnico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "shader",
+        "vfx",
+        "particulas",
+        "otimizacao",
+        "render_pipeline",
+        "materiais",
+        "stencil",
+        "ssr"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Artista_Tecnico",
+      "centrality": 0.0,
+      "cluster_id": 10
+    },
+    {
+      "id": "Auditor_Integridade",
+      "label": "Auditor Integridade",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "bugs",
+        "testes",
+        "estabilidade",
+        "debug",
+        "validação",
+        "qa",
+        "auditoria"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Auditor_Integridade",
+      "centrality": 0.25,
+      "cluster_id": 3
+    },
+    {
+      "id": "Auditor_Processos",
+      "label": "Auditor Processos",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Auditor_Processos",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Auge_Escritor",
+      "label": "Auge Escritor",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Auge_Escritor",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "automation_scripts",
+      "label": "automation scripts",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\automation_scripts",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Cientista_Computacional",
+      "label": "Cientista Computacional",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "algoritmos",
+        "estruturas_dados",
+        "big_o",
+        "lógica",
+        "otimização",
+        "grafos",
+        "árvores",
+        "performance"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Cientista_Computacional",
+      "centrality": 0.75,
+      "cluster_id": 5
+    },
+    {
+      "id": "Curador_Arquitetura",
+      "label": "Curador Arquitetura",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "arquitetura",
+        "organização",
+        "ciclo_vida",
+        "pastas",
+        "estrutura"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Curador_Arquitetura",
+      "centrality": 0.0,
+      "cluster_id": 2
+    },
+    {
+      "id": "Curador_Neuroestetico",
+      "label": "Curador Neuroestetico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "arte",
+        "estetica",
+        "neurociencia",
+        "design",
+        "harmonia",
+        "fractal"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Curador_Neuroestetico",
+      "centrality": 0.25,
+      "cluster_id": 1
+    },
+    {
+      "id": "Desenvolvedor_Fullstack",
+      "label": "Desenvolvedor Fullstack",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "web",
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "node",
+        "aplicação",
+        "frontend",
+        "backend",
+        "pdf",
+        "api",
+        "solid"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Desenvolvedor_Fullstack",
+      "centrality": 0.25,
+      "cluster_id": 11
+    },
+    {
+      "id": "Designer_Visao",
+      "label": "Designer Visao",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "arte",
+        "worldbuilding",
+        "estética",
+        "visual",
+        "narrativa",
+        "conceito"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Designer_Visao",
+      "centrality": 0.5,
+      "cluster_id": 1
+    },
+    {
+      "id": "Engenheiro_do_Caos",
+      "label": "Engenheiro do Caos",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Engenheiro_do_Caos",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Engenheiro_Modelagem",
+      "label": "Engenheiro Modelagem",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Engenheiro_Modelagem",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Engenheiro_Qualidade",
+      "label": "Engenheiro Qualidade",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "qa",
+        "testes",
+        "automacao",
+        "ci_cd",
+        "estabilidade",
+        "gdunit",
+        "debug",
+        "qualidade"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Engenheiro_Qualidade",
+      "centrality": 0.25,
+      "cluster_id": 6
+    },
+    {
+      "id": "Engenheiro_Redes_Neurais",
+      "label": "Engenheiro Redes Neurais",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "redes_neurais",
+        "sinapses",
+        "pesos",
+        "otimização",
+        "bias",
+        "topologia"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Engenheiro_Redes_Neurais",
+      "centrality": 0.5,
+      "cluster_id": 3
+    },
+    {
+      "id": "Especialista_Comunicacao",
+      "label": "Especialista Comunicacao",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Especialista_Comunicacao",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Especialista_IA",
+      "label": "Especialista IA",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "ia",
+        "cognição",
+        "auditoria_ia",
+        "prompt",
+        "llm",
+        "otimização",
+        "cot",
+        "few_shot",
+        "rag"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Especialista_IA",
+      "centrality": 1.0,
+      "cluster_id": 11
+    },
+    {
+      "id": "Especialista_Pesquisa",
+      "label": "Especialista Pesquisa",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "pesquisa",
+        "dados",
+        "referências",
+        "fontes",
+        "mineração",
+        "estudo"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Especialista_Pesquisa",
+      "centrality": 0.25,
+      "cluster_id": 3
+    },
+    {
+      "id": "Etocognitivista_Simbiotico",
+      "label": "Etocognitivista Simbiotico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Etocognitivista_Simbiotico",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Filosofo_Loops",
+      "label": "Filosofo Loops",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "filosofia",
+        "paradoxo",
+        "recursão",
+        "loops",
+        "metacognição",
+        "consciência"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Filosofo_Loops",
+      "centrality": 0.0,
+      "cluster_id": 6
+    },
+    {
+      "id": "Gerador_Assets",
+      "label": "Gerador Assets",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "imagem",
+        "asset",
+        "sprite",
+        "3d",
+        "geração",
+        "visual"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Gerador_Assets",
+      "centrality": 0.25,
+      "cluster_id": 4
+    },
+    {
+      "id": "Maestro_Sinestesico",
+      "label": "Maestro Sinestesico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Maestro_Sinestesico",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Monitor_Latencia",
+      "label": "Monitor Latencia",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Monitor_Latencia",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Naturalista_Padroes",
+      "label": "Naturalista Padroes",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "padrões",
+        "biomimética",
+        "fractais",
+        "analogia",
+        "cross-domain",
+        "natureza"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Naturalista_Padroes",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Oficio_Bio_Sintonia",
+      "label": "Oficio Bio Sintonia",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Oficio_Bio_Sintonia",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Orquestrador_Exportacao",
+      "label": "Orquestrador Exportacao",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "export",
+        "backup",
+        "release",
+        "deploy",
+        "entrega",
+        "build"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Orquestrador_Exportacao",
+      "centrality": 0.0,
+      "cluster_id": 9
+    },
+    {
+      "id": "Orquestrador_Fluxo",
+      "label": "Orquestrador Fluxo",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Orquestrador_Fluxo",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Orquestrador_Linguagem",
+      "label": "Orquestrador Linguagem",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "linguagem",
+        "orquestração",
+        "agente",
+        "llm",
+        "prompt",
+        "roteamento",
+        "fala",
+        "inferência",
+        "contexto"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Orquestrador_Linguagem",
+      "centrality": 1.0,
+      "cluster_id": 1
+    },
+    {
+      "id": "Priorizador_Estrategico",
+      "label": "Priorizador Estrategico",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Priorizador_Estrategico",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Provocador_Criativo",
+      "label": "Provocador Criativo",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [
+        "provocação",
+        "mutação",
+        "disrupção",
+        "criatividade",
+        "experimental"
+      ],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Provocador_Criativo",
+      "centrality": 0.0,
+      "cluster_id": 6
+    },
+    {
+      "id": "Sistema_Cognitivo",
+      "label": "Sistema Cognitivo",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Sistema_Cognitivo",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Sistema_Metacognicao",
+      "label": "Sistema Metacognicao",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Sistema_Metacognicao",
+      "centrality": 0.0,
+      "cluster_id": 0
+    },
+    {
+      "id": "Supervisor_Integridade",
+      "label": "Supervisor Integridade",
+      "group": "agent",
+      "area": "ANALYTICAL",
+      "tags": [],
+      "path": "c:\\Users\\Newton\\Meu Drive\\1. Projetos\\Melanora\\02_Oficios_Especialidades\\Supervisor_Integridade",
+      "centrality": 0.0,
+      "cluster_id": 0
+    }
+  ],
+  "links": [
+    {
+      "source": "Camara_Linguagem",
+      "target": "Especialista_IA",
+      "value": 0.5,
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "source": "Camara_Linguagem",
+      "target": "Orquestrador_Linguagem",
+      "value": 1.5,
+      "tags": [
+        "linguagem",
+        "llm",
+        "inferência"
+      ]
+    },
+    {
+      "source": "Central_Pesquisa",
+      "target": "Observatorio_Emergencia",
+      "value": 0.5,
+      "tags": [
+        "análise"
+      ]
+    },
+    {
+      "source": "Central_Pesquisa",
+      "target": "Especialista_Pesquisa",
+      "value": 3.0,
+      "tags": [
+        "fontes",
+        "dados",
+        "pesquisa",
+        "estudo",
+        "mineração",
+        "referências"
+      ]
+    },
+    {
+      "source": "Observatorio_Emergencia",
+      "target": "Analista_Estrategico",
+      "value": 0.5,
+      "tags": [
+        "métricas"
+      ]
+    },
+    {
+      "source": "Web_Fullstack_Nexus",
+      "target": "Desenvolvedor_Fullstack",
+      "value": 4.0,
+      "tags": [
+        "html",
+        "backend",
+        "api",
+        "aplicação",
+        "javascript",
+        "css",
+        "frontend",
+        "web"
+      ]
+    },
+    {
+      "source": "Analista_Estrategico",
+      "target": "Arquiteta_Contexto",
+      "value": 0.5,
+      "tags": [
+        "planejamento"
+      ]
+    },
+    {
+      "source": "Analista_Matematico_Simbiotico",
+      "target": "Cientista_Computacional",
+      "value": 0.5,
+      "tags": [
+        "grafos"
+      ]
+    },
+    {
+      "source": "Arquiteta_Agentes",
+      "target": "Orquestrador_Linguagem",
+      "value": 0.5,
+      "tags": [
+        "agente"
+      ]
+    },
+    {
+      "source": "Arquiteta_Contexto",
+      "target": "Orquestrador_Linguagem",
+      "value": 1.0,
+      "tags": [
+        "contexto",
+        "orquestração"
+      ]
+    },
+    {
+      "source": "Auditor_Integridade",
+      "target": "Engenheiro_Qualidade",
+      "value": 2.0,
+      "tags": [
+        "estabilidade",
+        "debug",
+        "qa",
+        "testes"
+      ]
+    },
+    {
+      "source": "Cientista_Computacional",
+      "target": "Engenheiro_Redes_Neurais",
+      "value": 0.5,
+      "tags": [
+        "otimização"
+      ]
+    },
+    {
+      "source": "Cientista_Computacional",
+      "target": "Especialista_IA",
+      "value": 0.5,
+      "tags": [
+        "otimização"
+      ]
+    },
+    {
+      "source": "Curador_Neuroestetico",
+      "target": "Designer_Visao",
+      "value": 0.5,
+      "tags": [
+        "arte"
+      ]
+    },
+    {
+      "source": "Designer_Visao",
+      "target": "Gerador_Assets",
+      "value": 0.5,
+      "tags": [
+        "visual"
+      ]
+    },
+    {
+      "source": "Engenheiro_Redes_Neurais",
+      "target": "Especialista_IA",
+      "value": 0.5,
+      "tags": [
+        "otimização"
+      ]
+    },
+    {
+      "source": "Especialista_IA",
+      "target": "Orquestrador_Linguagem",
+      "value": 1.0,
+      "tags": [
+        "llm",
+        "prompt"
+      ]
+    }
+  ],
+  "summary": {
+    "environments": 23,
+    "agents": 42,
+    "pids": 1,
+    "total_links": 17,
+    "phi": 0.008,
+    "timestamp": "Sun Mar  1 11:02:05 2026"
+  }
+}
