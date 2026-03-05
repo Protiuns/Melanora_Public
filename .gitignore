@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Melanora Private Data
+*.lock
+*.tmp
+logs/*.log
+config/neural_state.json
+config/dialogue_history.json
+
+# Environment Dependencies (Binaries & Models)
+environments/ollama/bin/*
+environments/ollama/models/*
+!environments/ollama/bin/.gitkeep
+!environments/ollama/models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
