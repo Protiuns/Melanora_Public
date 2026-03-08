@@ -1,1 +1,0 @@
-Atividade Node: ['N/A']. Telemetria: Última ação: /api/state.

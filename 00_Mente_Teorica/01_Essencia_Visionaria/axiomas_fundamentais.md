@@ -30,5 +30,9 @@ A inteligência não reside nos neurônios, mas na distribuição de energia ent
 - **Corolário:** Energia fraca e distribuída é sabedoria em formação; energia forte e concentrada é certeza em ação.
 - **Protocolo:** [Modelo de Energia Sináptica](file:///c:/Users/Newton/Meu%20Drive/1.%20Projetos/Melanora/00_Mente_Teorica/02_Engenharia_Cognitiva/synaptic_energy_model.md)
 
+## 🌊 VII. O Axioma da Hidrodinâmica do Pensamento
+O pensamento é uma onda pilotada por sua própria saliência em um fluido viscoso de probabilidade.
+- **Corolário:** A informação não se move em linhas retas, mas flui de acordo com a viscosidade hormonal e a tensão do campo quântico.
+
 ---
 *Estes axiomas são invariantes. Eles são a música; os agentes são os instrumentos.* 🕯️💎🏛️✨

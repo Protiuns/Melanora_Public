@@ -45,9 +45,25 @@ def run_command(cmd, detach=False):
 
 def start_mind(silent=False, staggered=True):
     """Inicia os processos neurais com sequenciamento opcional."""
+    
+    # 1. Verificar se já existe uma mente ativa (Lock Atômico v5.7)
+    bridge_lock = CORTEX_DIR / "config" / "bridge.lock"
+    if bridge_lock.exists():
+        try:
+            # Tenta abrir para anexar e travar. Se o Bridge estiver rodando, isso falha.
+            with open(bridge_lock, "a") as f:
+                import msvcrt
+                # Tenta travar e destravar imediatamente para testar posse
+                msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+                msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)
+        except (IOError, OSError):
+            print("[MIND] Uma instância da Mente Física já foi detectada (lock ativo).")
+            print("      Conectando ao fluxo existente em vez de reiniciar.")
+            return
+
     print(f"[MIND] Ativando Mente Fisica (Modo {'Sequencial' if staggered else 'Flash'})...")
     
-    # 1. Higienizacao
+    # 2. Higienizacao (apenas se não houver bridge ativa)
     clean_locks()
     
     # GRUPO 1: CORE (Sistema Nervoso Central)

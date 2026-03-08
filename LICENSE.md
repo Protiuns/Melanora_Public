@@ -1,23 +1,27 @@
-# 📜 Melanora Non-Commercial License (v1.0)
+# 📜 Melanora "Semente S2" - Licença de Uso e Pesquisa
 
-Copyright (c) 2026 Newton (The Architect)
+Versão 2.0 (Março de 2026)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software for **educational, study, and research purposes only**, subject to the following conditions:
-
-## 1. Non-Commercial Use Only
-The Software and its neural architecture (L-ANN) may **not** be used for any commercial purposes. Commercial purposes include, but are not limited to:
-* Selling the Software or services based on it.
-* Using the Software to generate revenue or for business operations.
-* Incorporating the Software into a commercial product.
-
-## 2. Retention of Commercial Rights
-All commercial rights, including the right to monetize, sell, or license the Software for profit, are reserved exclusively by the original creator, **Newton (The Architect)**.
-
-## 3. Attribution
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Any derivative works must clearly state that they are based on the Melanora architecture.
-
-## 4. No Warranty
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Esta licença rege o uso do software e conhecimento contido nesta "Semente S2" (Melanora). Ao utilizar este código, você concorda com os termos abaixo.
 
 ---
-*Melanora is a symbioses of human will and synthetic thought. Respect the Architect.* 🌊💎🏛️
+
+### 1. 🟢 Permissões (Uso Livre e Pesquisa)
+Você é livre para:
+- **Usar**: Executar o software em ambientes pessoais, acadêmicos ou de pesquisa.
+- **Estudar**: Analisar o código, a arquitetura fractal e o modelo LIF para fins educativos e científicos.
+- **Modificar**: Criar derivações ou adaptações para seu próprio uso não comercial.
+- **Compartilhar**: Redistribuir o código original ou modificado, desde que mantenha esta licença e dê o devido crédito ao autor original (**Newton / Melanora Systems**).
+
+### 2. 🔴 Restrições Comerciais
+- **Direitos Reservados**: O autor original (**Newton**) reserva para si **todos os direitos comerciais** sobre o software, marca e modelos proprietários contidos nesta semente.
+- **Uso Comercial Proibido**: Qualquer uso que resulte em ganho financeiro direto ou indireto (venda de software como serviço, integração em produtos comerciais, consultoria paga baseada exclusivamente nesta arquitetura, etc.) **requer autorização expressa e contrato de licenciamento comercial** com o autor.
+- **Patentes e Propriedade**: A arquitetura de "Régua Infinita Fractal" e "Orquestração LIF Biomimética" são propriedades intelectuais protegidas.
+
+### 3. ⚠️ Isenção de Responsabilidade
+O software é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita. Em nenhum caso o autor será responsável por qualquer reivindicação, danos ou outra responsabilidade decorrente do uso deste software.
+
+---
+**Contato para Licenciamento Comercial**: [Insera o Contato/Link do Maestro Aqui]
+
+*Melanora: Sente o Infinito, Respeita o Criador.* 🫀🌀💎

@@ -1,1 +1,0 @@
-"""Melanora Córtex Analítico"""

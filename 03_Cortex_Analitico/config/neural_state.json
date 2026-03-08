@@ -1,0 +1,16 @@
+{
+    "mode": "S2_STABLE",
+    "fase": "IDLE",
+    "mood": "CALM",
+    "hormones": {
+        "dopamine": 0.5,
+        "serotonin": 0.5,
+        "cortisol": 0.2,
+        "adrenaline": 0.1,
+        "oxytocin": 0.3
+    },
+    "phi": 0.618,
+    "bpm": 70,
+    "energy": 1.0,
+    "timestamp": "2026-03-08T15:00:00"
+}

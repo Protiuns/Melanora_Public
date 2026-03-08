@@ -32,7 +32,7 @@ class NeuralTopology:
         "StaticUI": ("COGNITIVE", "static"),
         
         # Tools
-        "Python": ("VENV", "bin/python.exe"),
+        "Python": ("VENV", "Scripts/python.exe"),
         "Node": ("ENVIRONMENT", "Node/node.exe"),
     }
     

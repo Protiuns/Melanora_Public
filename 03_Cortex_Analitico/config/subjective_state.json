@@ -1,0 +1,9 @@
+{
+  "matrix": {
+    "dopamine": 0.5,
+    "cortisol": 0.2,
+    "oxytocin": 0.3,
+    "conviction": 0.8
+  },
+  "mood_label": "STABLE"
+}

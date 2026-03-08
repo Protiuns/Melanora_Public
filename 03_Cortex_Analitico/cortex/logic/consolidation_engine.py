@@ -66,7 +66,12 @@ def synaptic_pruning(hits_threshold: int = 10) -> dict:
             
         original_count = len(data.get("connections", {}))
         # REM-style Pruning: se Hits < threshold, remove.
-        new_conns = {k: v for k, v in data["connections"].items() if v["hits"] >= hits_threshold}
+        new_conns = {}
+        for k, v in data["connections"].items():
+            if v["hits"] >= hits_threshold:
+                new_conns[k] = v
+            # Throttling para não travar CPU
+            time.sleep(0.01)
         
         data["connections"] = new_conns
         with open(CONNECTOME_FILE, "w", encoding="utf-8") as f:
@@ -167,6 +172,7 @@ def apply_synaptic_tropism(hit_threshold: int = 50) -> dict:
                         "type": "TROPIC_BOND" # Marcador de crescimento orgânico
                     }
                     new_tropic_links += 1
+                    time.sleep(0.01) # Throttling orgânico
 
         if new_tropic_links > 0:
             data["connections"] = connections
